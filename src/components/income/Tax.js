@@ -2,15 +2,7 @@ import IncomeInput from './IncomeInput';
 import { useState } from 'react'
 
 const Tax = () => {
-    let tax = .125;
 
-    //const [tax, setTax] = useState(.125);
-
-    const handleTaxClick = () => {
-
-    }
-
-    }
     return ( 
         <div id="taxBox">
             <h2 className="incomeHeader">
@@ -28,7 +20,7 @@ const Tax = () => {
                 ID="provincial_autonomy"  />
                 </div>
             </div>
-            <button className="update left" onClick={handleTaxClick} >Update</button>
+            <button className="update left" >Update</button>
             <div className="summary summary_left">
                 <h3 className="summary_text constant">Each Tax Development will increase your income by</h3>
                 <h3 className="summary_text dynamic">test</h3>
