@@ -1,0 +1,32 @@
+.flag {
+  margin: auto;
+  display: block;
+  width: 13vh;
+  height: 13vh;
+  border-radius: 50% 50% 50% 50% / 20% 20% 80% 80%;
+  box-shadow: 0.2vh 0.2vh 0.35vh 0.2vh rgba(0, 0, 0, 0.5);
+  transition: 0.6s;
+}
+
+.active .flag:hover {
+  box-shadow: 0.4vh 0.25vh 0.4vh 0.25vh rgba(0, 0, 0, 0.75);
+  width: 13.5vh;
+  height: 13.5vh;
+}
+
+.inactive {
+  filter: grayscale(90%);
+  text-decoration: line-through;
+}
+
+.name {
+  font-size: 2.6vh;
+  text-align: center;
+  margin: 0;
+}
+
+.country {
+  display: inline-block;
+  width: 9vw;
+  margin: 0 1vw 4vh;
+}

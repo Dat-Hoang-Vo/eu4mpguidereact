@@ -1,0 +1,11 @@
+.rank_text {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 9vh;
+  color: rgb(46, 64, 106);
+  text-align: left;
+}
+
+.selection_container {
+  text-align: left;
+}

@@ -1,0 +1,74 @@
+h4 {
+  margin: 0;
+}
+
+#quick_info_box {
+  position: sticky;
+  top: 4vh;
+  color: white;
+  background: linear-gradient(
+    145deg,
+    rgba(46, 64, 106, 1) 0%,
+    rgba(13, 28, 65, 1) 100%
+  );
+  width: 60%;
+  height: 90vh;
+  margin-left: 1vw;
+  margin-right: 2vw;
+}
+
+#quick_info_box::after {
+  content: "";
+  background-image: url("../../image/home/background.png");
+  opacity: 15%;
+  filter: grayscale(100%);
+  background-size: cover;
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+
+#quick_info_content_container {
+  box-sizing: border-box;
+  padding: 2vh 2vw;
+}
+
+#quick_info_country_name {
+  font-size: 7vh;
+  letter-spacing: 0.4vw;
+  margin: 1vh 1vw 0;
+  margin-top: 0;
+  display: inline-block;
+}
+
+#quick_info_country_motto {
+  margin-top: 0;
+  margin-bottom: 1vh;
+  font-size: 2.6vh;
+  font-style: italic;
+}
+
+#relatedBox {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.relatedBox {
+  display: flex;
+}
+
+#allyBox {
+  margin-right: 0;
+  padding-right: 4vw;
+  border-right: white solid 0.1vw;
+}
+
+#threatBox {
+  margin-left: 0;
+  padding-left: 4vw;
+  border-left: white solid 0.1vw;
+}

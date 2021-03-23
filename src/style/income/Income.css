@@ -1,0 +1,101 @@
+#income_container {
+  margin-top: 4vh;
+  display: flex;
+}
+
+#taxBox {
+  width: 50%;
+  margin-left: 2vw;
+  margin-right: 1vw;
+  box-sizing: border-box;
+}
+
+.incomeHeader {
+  color: rgb(46, 64, 106);
+  letter-spacing: 0.3vw;
+  font-size: 7vh;
+  width: fit-content;
+  padding: 0 0.6vh;
+  text-align: center;
+  margin: -3.5vh auto 0;
+}
+
+.inputField {
+  color: rgb(46, 64, 106);
+  border: 0.2vw solid rgb(46, 64, 106);
+  border-radius: 4vh;
+  box-sizing: border-box;
+  height: 68vh;
+  text-align: left;
+}
+
+.inputFieldInner {
+  padding-top: 1.6vh;
+  margin: 0 2vw;
+  height: 70.5vh;
+}
+
+.inputName {
+  font-size: 2.6vh;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.inputDescription {
+  font-size: 1.6vh;
+  margin: 0.4vh 0;
+}
+
+.inputDataHere {
+  outline-width: 0;
+  height: 1.8vh;
+  border: 0.3vh solid rgb(46, 64, 106);
+  border-radius: 2vh;
+}
+
+.update {
+  font-size: 3.4vh;
+  display: block;
+  margin: 0 auto;
+  border-radius: 2vh;
+  outline-width: 0;
+  background-color: rgb(46, 64, 106);
+  color: white;
+  border: none;
+  bottom: 15.7%;
+  position: absolute;
+  z-index: 5;
+}
+
+.left {
+  left: 22.5%;
+}
+
+.summary {
+  margin-top: 3vh;
+}
+
+.summary_left {
+  margin-right: 3vw;
+}
+
+.summary_text {
+  display: block;
+  font-size: 3vh;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.constant {
+  margin: auto;
+  width: 50%;
+  color: rgb(46, 64, 106);
+}
+
+.dynamic {
+  margin: 0;
+  color: #fcdb77;
+}

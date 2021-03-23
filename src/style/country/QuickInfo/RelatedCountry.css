@@ -1,0 +1,17 @@
+.relatedFlagContainer {
+  display: block;
+  width: 6vw;
+}
+
+.relatedFlag {
+  margin-top: 1.4vh;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50% 50% 50% 50% / 20% 20% 80% 80%;
+}
+
+.related_header {
+  margin: 0 0 1vh;
+  font-size: 2.4vh;
+  font-style: italic;
+}

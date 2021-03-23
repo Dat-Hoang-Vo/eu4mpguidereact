@@ -1,0 +1,14 @@
+#traits_container {
+  text-align: left;
+}
+
+.trait_name {
+  font-size: 2.2vh;
+  margin-top: 2vh;
+  margin-bottom: 0;
+}
+
+.trait_description {
+  margin: 0;
+  font-size: 1.8vh;
+}

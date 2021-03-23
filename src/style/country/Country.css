@@ -1,0 +1,13 @@
+body {
+  background-color: #f5f5f5;
+}
+
+#country_split_box {
+  margin-top: 4vh;
+  display: flex;
+}
+
+.split_box {
+  border-radius: 3vh;
+  box-sizing: border-box;
+}

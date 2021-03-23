@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+  outline: none;
+  color: white;
+  border: 0.4vh solid white;
+  border-radius: 10vh;
+  font-size: 2.5vh;
+  padding: 1vh;
+  width: 14vw;
+  margin: 0 2vw;
+  display: inline-block;
+}
